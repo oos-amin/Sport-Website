@@ -2,9 +2,57 @@
 
 @media(max-width:1200px) {}
 
-@media(max-width:992px) {}
+@media(max-width:992px) {
+    .header-list__link {
+        font-size: 1.5rem;
+    }
+}
 
-@media(max-width:768px) {}
+@media(max-width:768px) {
+    .header-user {
+        display: none;
+    }
+
+    .nav {
+        /* display: none; */
+    }
+
+    .header-list-icon {
+        display: none;
+    }
+
+    .header-list {
+        display: flex;
+        gap: 4rem;
+        flex-direction: column;
+        background-color: #ededed;
+        padding: 6rem 2rem 2rem 2rem;
+        position: fixed;
+        right: -25rem;
+        top: 0;
+        bottom: 0;
+        width: 25rem;
+        height: 100%;
+        justify-content: flex-start;
+        margin-top: 0;
+        transition: 0.2s;
+        color: #fff;
+    }
+
+    .header-list--show {
+        right: 0;
+
+    }
+
+    .header-toggle {
+        display: flex;
+    }
+
+    .header-list__link {
+        font-family: "Vazir Medium";
+    }
+
+}
 
 @media(max-width:576px) {}
 
