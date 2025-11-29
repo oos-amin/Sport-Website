@@ -13,10 +13,6 @@
         display: none;
     }
 
-    .nav {
-        /* display: none; */
-    }
-
     .header-list-icon {
         display: none;
     }
@@ -37,6 +33,7 @@
         margin-top: 0;
         transition: 0.2s;
         color: #fff;
+        z-index: 101;
     }
 
     .header-list--show {
@@ -50,6 +47,15 @@
 
     .header-list__link {
         font-family: "Vazir Medium";
+    }
+
+    .home-slider__img.desktop {
+        display: none;
+    }
+
+    .home-slider__img.mobile {
+        display: block;
+
     }
 
 }

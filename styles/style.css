@@ -103,6 +103,7 @@ body {
     border-radius: 0.8rem;
     cursor: pointer;
     display: none;
+    z-index: 101;
 }
 
 .header-toggle__line {
@@ -173,25 +174,6 @@ body {
     transition: 0.2;
 }
 
-
-
-.header-list-item::before {
-    content: "";
-    position: absolute;
-    background-color: #000;
-    width: 100%;
-    height: 0.1rem;
-    transform: scaleX(0);
-    transition: 0.2s;
-    bottom: -4px;
-
-}
-
-.header-list-item:hover.header-list-item::before {
-    content: "";
-    transform: scaleX(1);
-}
-
 .header-list-icon {
     margin-left: 1.5rem;
 }
@@ -207,6 +189,28 @@ body {
 
 .header-list__link:hover {
     color: orange;
+}
+
+/* 
+==================
+      Home
+==================
+*/
+
+.home {
+    margin: 0 8rem;
+}
+
+.home-slider {}
+
+.home-slider__img {
+    width: 100%;
+    margin-top: 4rem;
+    border-radius: 2rem;
+}
+
+.home-slider__img.mobile {
+    display: none;
 }
 
 
@@ -227,4 +231,27 @@ body {
 
 .overlay--show {
     opacity: 0.5;
+    z-index: 100;
+}
+
+/* 
+==================
+    Swiper
+==================
+*/
+
+.swiper-pagination {
+    position: static !important;
+    margin-top: 2rem !important;
+}
+
+.swiper-pagination-bullet {
+    width: 1.8rem !important;
+    height: 1.8rem !important;
+    border: solid 4px rgb(192, 192, 192) !important;
+    background-color: #fff !important;
+}
+
+.swiper-pagination-bullet-active {
+    border-color: orange !important;
 }
