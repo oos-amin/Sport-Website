@@ -10,15 +10,17 @@
     <link rel="stylesheet" href="styles/bootstrap.min.css">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/responsive.css">
+    <link rel="stylesheet" href="styles/swiper-bundle.min.css">
 </head>
 
 <body>
 
     <!--==== Header ==== -->
     <header class="header">
+
         <div class="container">
             <!-- Top Header -->
-            <div class="header-top">
+            <section class="header-top">
                 <h1 class="header-logo">لوگو</h1>
 
                 <div class="header-user">
@@ -30,7 +32,7 @@
                 <div class="header-toggle">
                     <span class="header-toggle__line"></span>
                 </div>
-            </div>
+            </section>
 
             <!--==== Navogation ====-->
             <nav class="nav">
@@ -45,11 +47,39 @@
                     <li class="header-list-item"><a href="#" class="header-list__link">درباره ما</a></li>
                 </ul>
             </nav>
+
         </div>
+
+        <!-- Home -->
+        <section class="home">
+            <div class="swiper">
+                <div class="swiper-wrapper  home-slider">
+                    <div class="swiper-slide">
+                        <img src="images/home01.jpg" alt="" class="home-slider__img desktop">
+                        <img src="images/home-mobile01.jpg" alt="" class="home-slider__img mobile">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/home02.jpg" alt="" class="home-slider__img desktop">
+                        <img src="images/home-mobile02.jpg" alt="" class="home-slider__img mobile">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/home03.jpg" alt="" class="home-slider__img desktop">
+                        <img src="images/home-mobile03.jpg" alt="" class="home-slider__img mobile">
+                    </div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+
     </header>
 
     <div class="overlay"></div>
+
     <script src="js/scripts.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/swiper.js"></script>
 </body>
 
 </html>
