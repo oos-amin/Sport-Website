@@ -20,7 +20,6 @@ html {
 body {
     font-size: 1.6rem;
     font-family: "Vazir Regular";
-    background-color: #eaeaea;
 }
 
 /* 
@@ -40,7 +39,7 @@ body {
 */
 
 .header {
-    margin-top: 2rem;
+    padding: 1.5rem 0;
 }
 
 .header-logo {
@@ -192,6 +191,14 @@ body {
 
 /* 
 ==================
+   Main Section
+==================
+*/
+
+.main {}
+
+/* 
+==================
       Home
 ==================
 */
@@ -212,6 +219,142 @@ body {
     display: none;
 }
 
+/* 
+=====================
+  Guarantee Section
+=====================
+*/
+
+.guarantee {
+    margin: 0 1rem 5rem 1rem;
+}
+
+.guarantee-wrapper {
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.guarantee-box {
+    padding: 0 0.7rem;
+    border-radius: 1rem;
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    box-shadow: 0 8px 11px 0px rgba(0, 0, 0, 8%);
+}
+
+.guarantee-box__img {
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-top: 1rem;
+}
+
+.guarantee-box__caption {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+/* 
+==================
+    Products
+==================
+*/
+.products {
+    background-color: #f7faff;
+    padding: 10rem 0;
+}
+
+.products-title {
+    margin-bottom: 2.5rem;
+    position: relative;
+}
+
+.products-title::before {
+    content: "";
+    position: absolute;
+    width: 6rem;
+    height: 0.3rem;
+    background-color: orange;
+    right: -7rem;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.products-wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 19rem);
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.products-box {
+    width: 19rem;
+    height: 30rem;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    border: solid 1px rgb(236, 236, 236);
+    cursor: pointer;
+    justify-self: center;
+    align-self: center;
+    position: relative;
+    box-shadow: 0 8px 11px 0px rgba(0, 0, 0, 8%);
+}
+
+.products-box__link {
+    color: #000000;
+    text-decoration: none;
+}
+
+.products-box::after {
+    content: "ارسال رایگان";
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: #fff;
+    font-size: 1.5rem;
+    width: 9rem;
+    height: 2.3rem;
+    background-color: rgb(26, 115, 205);
+    position: absolute;
+    bottom: 0;
+    top: 5rem;
+    right: 0;
+    margin: auto 0;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.products-box__img {
+    width: 100%;
+    transition: 0.2s;
+    margin-bottom: 1.5rem;
+}
+
+.products-box__img:hover {
+    transform: scale(1.1);
+}
+
+.products-box__caption {
+    margin-bottom: 1rem;
+}
+
+.products-box__price {
+    display: flex;
+    font-family: "Vazir Medium";
+}
 
 /* 
 ==================
