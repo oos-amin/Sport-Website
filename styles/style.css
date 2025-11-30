@@ -43,7 +43,7 @@ body {
 }
 
 .header-logo {
-    font-size: 4rem;
+    font-size: 3rem;
     font-family: "Vazir Medium";
     color: orange;
 }
@@ -329,7 +329,7 @@ body {
     font-size: 1.5rem;
     width: 9rem;
     height: 2.3rem;
-    background-color: rgb(26, 115, 205);
+    background-color: rgb(219, 143, 0);
     position: absolute;
     bottom: 0;
     top: 2rem;
@@ -355,6 +355,141 @@ body {
 .products-box__price {
     display: flex;
     font-family: "Vazir Medium";
+}
+
+/* 
+==================
+    Footer
+==================
+*/
+.footer {
+    padding: 8rem 0 3rem 0;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-list-wrapper {
+    display: flex;
+    gap: 4rem;
+}
+
+.footer-list {}
+
+.footer-list__title {
+    font-size: 2rem;
+    font-family: "Vazir Bold";
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.footer-list__title::after {
+    content: "";
+    position: absolute;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: orange;
+    bottom: -1rem;
+    border-radius: 2rem;
+    right: 0;
+}
+
+.footer-list__item {
+    line-height: 1.8;
+}
+
+.footer-list__link {
+    color: #747474;
+    text-decoration: none;
+    transition: 0.2s;
+    font-size: 1.6rem;
+}
+
+.footer-list__link:hover {
+    color: orange;
+}
+
+.footer-contact {}
+
+.footer-contact__call {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.footer-contact__number {}
+
+.footer-contact__time {}
+
+.footer-contact__logo {
+    width: 15%;
+    margin-right: 1rem;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+
+.footer-social__box {
+    width: 4.5rem;
+    height: 4.5rem;
+    background-color: #f5f5f5;
+    padding: .5rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    cursor: pointer;
+}
+
+.footer-social__icon {
+    width: 70%;
+}
+
+.footer-description {
+    display: flex;
+    margin-top: 3.5rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 3.5rem;
+}
+
+.footer-description__caption {
+    color: #747474;
+    width: 80rem;
+    text-align: center;
+}
+
+.footer-permission {}
+
+.footer-permission__box {
+    display: flex;
+    justify-content: center;
+    gap: 1.3rem;
+}
+
+.footer-permission__img {
+    width: 10rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.footer-line {
+    width: 100%;
+    height: 0.1rem;
+    background-color: #b6b6b6;
+}
+
+.footer-copyright {
+    font-family: "Vazir Medium";
+    text-align: center;
 }
 
 /* 
