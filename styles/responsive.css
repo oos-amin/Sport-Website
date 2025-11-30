@@ -85,7 +85,7 @@
 
     .footer-list-wrapper {
         flex-wrap: wrap;
-        justify-content: center;
+        margin-right: 2rem
     }
 
 }
@@ -101,6 +101,14 @@
 
     .footer-permission__img {
         width: 8rem;
+    }
+
+    .footer-contact__call {
+        justify-content: center;
+    }
+
+    .footer-social {
+        justify-content: center;
     }
 }
 
@@ -132,6 +140,7 @@
 
     .footer-description__caption {
         font-size: 1.3rem;
+        padding: 0 1.8rem;
     }
 
     .footer-permission__img {
