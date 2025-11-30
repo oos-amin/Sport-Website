@@ -82,7 +82,20 @@
 
 @media(max-width:576px) {
     .products-wrapper {
-        grid-template-columns: repeat(1, 19rem);
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0;
+    }
+}
+
+@media(max-width:467px) {
+    .products-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 3rem;
+    }
+
+    .products-box {
+        width: auto;
+        height: auto;
     }
 }
 
