@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ورود - لوگو</title>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body {
+            font-family: 'Vazirmatn', sans-serif;
+            background: #fff;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .container {
+            display: flex;
+            max-width: 960px;
+            width: 100%;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.12);
+            border-radius: 20px;
+            overflow: hidden;
+        }
+        .left {
+            flex: 1;
+            background: linear-gradient(135deg, #f5f5f5, #e0e0e0);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 50px 30px;
+        }
+        .logo {
+            font-size: 60px;
+            font-weight: 800;
+            color: #ff6200;
+            margin-bottom: 20px;
+        }
+        .left h2 {
+            font-size: 26px;
+            color: #222;
+            margin-bottom: 15px;
+        }
+        .left p {
+            color: #555;
+            text-align: center;
+            line-height: 1.8;
+            font-size: 15px;
+        }
+        .right {
+            flex: 1;
+            background: white;
+            padding: 60px 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .right h3 {
+            font-size: 26px;
+            margin-bottom: 12px;
+            color: #222;
+        }
+        .right p {
+            color: #666;
+            font-size: 15px;
+            margin-bottom: 35px;
+            line-height: 1.7;
+        }
+        .input-wrapper {
+            position: relative;
+            margin-bottom: 30px;
+        }
+        .input-wrapper input {
+            width: 100%;
+            padding: 16px 20px;
+            border: 1px solid #ddd;
+            border-radius: 12px;
+            font-size: 17px;
+            text-align: left;
+            direction: ltr;
+        }
+        .input-wrapper::after {
+            content: "شماره موبایل";
+            position: absolute;
+            right: 16px;
+            top: 16px;
+            font-size: 13px;
+            color: #999;
+            pointer-events: none;
+        }
+        .login-btn {
+            background: #ff6200;
+            color: white;
+            border: none;
+            padding: 16px;
+            border-radius: 12px;
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .login-btn:hover { background: #e55a00; }
+        .links {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .links a {
+            color: #ff6200;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .links a:hover { text-decoration: underline; }
+        .social {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            margin-top: 40px;
+        }
+        .social img { width: 28px; opacity: 0.6; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="logo">لوگو</div>
+            <h2>فروشگاه آنلاین پوشاک و لوازم ورزشی</h2>
+            <p>جهت ورود یا ثبت نام حساب کاربری، لطفاً شماره موبایل خود را وارد نمائید.<br>لطفاً اعداد را به صورت انگلیسی وارد نمائید.</p>
+        </div>
+        <div class="right">
+            <h3>ورود یا ثبت نام</h3>
+<p>جهت ورود یا ثبت نام حساب کاربری، شماره موبایل خود را وارد کنید</p>
+            <div class="input-wrapper">
+                <input type="text" placeholder="" maxlength="11">
+            </div>
+            <button class="login-btn">مرحله بعد</button>
+            <div class="links">
+                <a href="#">ورود با ایمیل</a>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
+
