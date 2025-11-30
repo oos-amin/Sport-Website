@@ -48,6 +48,11 @@ body {
     color: orange;
 }
 
+.header-logo__link {
+    color: orange;
+    text-decoration: none;
+}
+
 .header-top {
     display: flex;
     justify-content: space-between;

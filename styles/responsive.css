@@ -88,6 +88,18 @@
         margin-right: 2rem
     }
 
+    .login-wrapper {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .left h2 {
+        font-size: 2.6rem;
+    }
+
+    .logo {
+        font-size: 5rem;
+    }
 }
 
 @media(max-width:576px) {
