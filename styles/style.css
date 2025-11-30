@@ -312,6 +312,7 @@ body {
     align-self: center;
     position: relative;
     box-shadow: 0 8px 11px 0px rgba(0, 0, 0, 8%);
+    overflow: hidden;
 }
 
 .products-box__link {
@@ -331,9 +332,8 @@ body {
     background-color: rgb(26, 115, 205);
     position: absolute;
     bottom: 0;
-    top: 5rem;
+    top: 2rem;
     right: 0;
-    margin: auto 0;
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
 }
@@ -345,7 +345,7 @@ body {
 }
 
 .products-box__img:hover {
-    transform: scale(1.1);
+    transform: scale(1.15);
 }
 
 .products-box__caption {

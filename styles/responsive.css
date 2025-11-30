@@ -83,19 +83,22 @@
 @media(max-width:576px) {
     .products-wrapper {
         grid-template-columns: repeat(2, 1fr);
-        gap: 0;
     }
 }
 
 @media(max-width:467px) {
     .products-wrapper {
         grid-template-columns: repeat(1, 1fr);
-        row-gap: 3rem;
     }
 
     .products-box {
         width: auto;
         height: auto;
+    }
+
+    .products-box::after {
+        top: 3rem;
+        width: 13rem;
     }
 }
 
@@ -108,8 +111,6 @@
         width: 3rem;
         height: 3rem;
     }
-
-
 }
 
 @media (min-width:768px) {}
