@@ -298,7 +298,7 @@ body {
 
 .products-wrapper {
     display: grid;
-    grid-template-columns: repeat(5, 19rem);
+    grid-template-columns: repeat(4, 1fr);
     justify-content: center;
     align-items: center;
     gap: 3rem;
@@ -306,8 +306,6 @@ body {
 }
 
 .products-box {
-    width: 19rem;
-    height: 30rem;
     padding: 1rem;
     background-color: #fff;
     border-radius: 1rem;
@@ -334,13 +332,14 @@ body {
     font-size: 1.5rem;
     width: 9rem;
     height: 2.3rem;
-    background-color: rgb(219, 143, 0);
+    background-color: orange;
     position: absolute;
     bottom: 0;
     top: 2rem;
     right: 0;
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
+    font-family: "Vazir Bold";
 }
 
 .products-box__img {
@@ -350,7 +349,7 @@ body {
 }
 
 .products-box__img:hover {
-    transform: scale(1.15);
+    transform: scale(1.07);
 }
 
 .products-box__caption {

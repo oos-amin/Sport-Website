@@ -4,7 +4,7 @@
 
 .social a {
     margin-left: 20px;
-    color: #ff6200;
+    color: orange;
     font-size: 20px;
 }
 
@@ -29,7 +29,7 @@
 }
 
 .footer-cols a:hover {
-    color: #ff6200;
+    color: orange;
 }
 
 .badges {
@@ -63,7 +63,7 @@
 .logo {
     font-size: 38px;
     font-weight: 900;
-    color: #ff6200;
+    color: orange;
     letter-spacing: -1px;
 }
 
@@ -71,16 +71,16 @@
     margin-left: 38px;
     color: #444;
     font-weight: 500;
-    font-size: 15.5px;
+    font-size: 1.7rem;
     transition: color .3s;
 }
 
 .nav a:hover {
-    color: #ff6200;
+    color: orange;
 }
 
 .cart {
-    color: #ff6200;
+    color: orange;
     font-weight: 600;
     font-size: 15.5px;
     position: relative;
@@ -90,7 +90,7 @@
     position: absolute;
     top: -10px;
     right: -22px;
-    background: #ff6200;
+    background: orange;
     color: #fff;
     width: 24px;
     height: 24px;
@@ -139,7 +139,7 @@
 }
 
 .meta span:nth-child(2) {
-    color: #ff6200;
+    color: orange;
     font-weight: 500;
 }
 
@@ -161,7 +161,7 @@
 
 .details li::before {
     content: "•";
-    color: #ff6200;
+    color: orange;
     position: absolute;
     right: -24px;
     font-size: 20px;
@@ -218,7 +218,7 @@
 }
 
 .add-to-cart {
-    background: #ff6200;
+    background: orange;
     color: #fff;
     border: none;
     padding: 17px 48px;
@@ -261,7 +261,7 @@
 }
 
 .sizes button:hover {
-    border-color: #ff6200;
+    border-color: orange;
 }
 
 .sizes button.active {
@@ -273,7 +273,7 @@
 .size-guide {
     display: block;
     margin-top: 30px;
-    color: #ff6200;
+    color: orange;
     font-size: 15px;
 }
 
@@ -314,7 +314,7 @@
 
 .thumbnails img:hover,
 .thumbnails img.active {
-    border-color: #ff6200;
+    border-color: orange;
     transform: scale(1.1);
 }
 
