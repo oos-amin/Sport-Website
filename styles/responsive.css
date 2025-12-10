@@ -68,7 +68,7 @@
     }
 
     .products-wrapper {
-        grid-template-columns: repeat(2, 19rem);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .footer-wrapper {
